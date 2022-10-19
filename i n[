@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Propriedades Css Básicas</title>
+</head>
+
+<body>
+    <table class="table table-borderless" id="th1">
+        <tr>
+            <td rowspan="2">
+                <img src="img/flavia.png" alt="Rosto de Fulano de Tal" id="tr1">
+            </td>
+            <td>
+                <b>Flávia Amaral</b><br>
+            </td>
+        </tr>
+        <tr>
+            <td><small>&lt;Designer e Desenvolvedor Web&gt;</small></td>
+        </tr>
+    </table>
+    <table class="table table-borderless">
+        <tr>
+            <td>
+                <ul>
+                    <li><a href="index.html" id="pr1">Principal</a></li>
+                    <li><a href="quemsou.html">Quem Somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="projetos.html">Projetos</a></li>
+                </ul>
+            </td>
+            <td></td>
+        </tr>
+    </table>
+    <table class="table table-borderless" id="tb3">
+        <tbody>
+            <ul id="li2">
+                <tr>
+                    <td rowspan="2" id="li3">Oi eu sou<h3>Flavia</h3>Eu crio aplicacoes web <br>modernas e
+                        atraentes.<br><a href="contato.html" id="c1">Contate-nos</a></td>
+
+                </tr>
+                <tr>
+                    <td rowspan="2"><img src="img/flavia.png" alt="flavia"></td>
+                </tr>
+
+            </ul>
+
+        </tbody>
+    </table>
+    <table border="0">
+        <tr>
+            <ul>
+                <li id="tr2"><b>O que você vai encontrar aqui:</b></li>
+        </tr>
+        <tr>
+
+            <li id="tr2"><a href="index.html" id="link">Principal</a>&nbsp;&nbsp;Esta página em que voce se encontra,
+                contendo um resumo do site
+            </li>
+            </tb>
+            <li id="tr2"><a href="quemsou.html" id="link">Quem Sou</a>&nbsp;&nbsp;Uma minibio da minha vida profissional
+                com um resumo de minhas habilidades</li>
+            </tb>
+            <tb>
+                <li id="tr2"><a href="projetos.html" id="link">Projetos</a>&nbsp;&nbsp;Os trabalhos mais relevantes em
+                    que atuei como designer e/ou desenvolvedor web</li>
+            </tb>
+            <tb>
+                <li id="tr2"><a href="contato.html" id="link">Contato</a>&nbsp;&nbsp;Os canais para voce me encontrar em
+                    redes sociais, e-mails e telefone</li>
+            </tb>
+        </tr>
+        </ul>
+        </tr>
+        <tr>
+
+    </table>
+
+    <h2>Copyright: &copy; 2022<br>
+        <img src="img/ifes.png" alt="IFES" id="ifes">
+    </h2>
+
+
+
+</body>
+
+</html>
